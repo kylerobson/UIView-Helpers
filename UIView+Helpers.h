@@ -85,6 +85,8 @@ andReferenceIsSuperView:(BOOL)isReferenceSuperView;
 - (CGFloat)frameSizeHeight;
 - (CGSize)frameSize;
 - (CGPoint)frameOrigin;
+- (CGFloat)frameMaxX;
+- (CGFloat)frameMaxY;
 
 //Frame Adjustments
 - (void)setFrameSize:(CGSize)size;
